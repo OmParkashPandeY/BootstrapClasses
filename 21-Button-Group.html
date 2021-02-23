@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  crossorigin="anonymous">
+   
+  <link rel="stylesheet" href="FontCss/all.css">
+    
+    <style>
+    .tablebox{
+        border:1px solid gray;
+        padding:20px;
+    }
+    .tablecolumn1{
+        border:1px solid gray;
+       
+    }
+    .red{
+        color:white;
+        background-color: red;
+    }
+    .green{
+        background-color: green;
+        color:white;
+    }
+    .pink{
+        background-color: pink;
+        color:blue;
+    }
+    .blue{
+        background-color: blue;
+        color:white;
+    }
+    .purple{
+        background-color: purple;
+        color:white;
+    }
+    .cyan{
+        background-color:cyan;
+        color:blue;
+    }
+    .yellow{
+        background-color:yellow;
+        color:blue;
+    }
+    .orange{
+        background-color:orange;
+        color:blue;
+    }
+    .orangered{
+        background-color:orangered;
+        color:blue;
+    }
+    .sidebar
+    {
+       background-color: rgb(31, 16, 87);
+    }
+    .multy-blue
+    {
+        background-color: rgb(6, 29, 71);
+        color:white;
+    }
+    .gray
+    {
+        background-color: gainsboro;
+        border:1px solid green;
+    }
+    .link
+    {
+        color: rgb(32, 110, 16);
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar multy-blue">
+       <h2>Bootstrap</h2>
+    </nav>
+   <div class="row mr-1">
+       <!-- -------------------------------------------- -->
+       <div class="col-lg-2  col-md-3 light fixed-top fixed-bottom d-md-inline d-none  sidebar">
+<!-- ------------------------------------------------------------------------------------- -->
+             <h1 style="color: white;">Bootstrap</h1>
+<!-- ------------------------------------------------------------------------------------- -->
+       </div>
+       <!-- -------------------------------------------- -->
+       <!-- -------------------------------------------- -->
+       <div class="offset-lg-2 offset-md-3 col-lg-10 col-md-9 light ">
+<!-- ------------------------------------------------------------------------------------- -->
+             <nav class="navbar orange sticky-top">
+              <h2>Bootstrap</h2>
+             </nav>
+
+             <div class="background w-100 bg-secondary px-2 py-2 my-2">
+                <h class="text-center display-4  font-italic">Bootstrap Button</h>
+            </div>
+
+             <!-- ----------------------------------------------------- -->
+             <div class="btn-toolbar">
+
+                <div class=" mx-2 my-2 py-2 bg-light btn-group">
+                    <button class="btn px-4 btn-outline-primary"><i class="fas fa-bars"></i></button>
+                    <button class="btn px-4 btn-outline-secondary ">2</button>
+                    <button class="btn px-4 btn-outline-success">3</button>
+                    <button class="btn px-4 btn-outline-danger">4</button>
+                    <button class="btn px-4 btn-outline-info">5</button>
+                 </div>
+
+                 <div class=" mx-2 my-2 py-2 bg-light btn-group">
+                    <button class="btn px-4 btn-outline-primary">1</button>
+                    <button class="btn px-4 btn-outline-secondary ">2</button>
+                    <button class="btn px-4 btn-outline-success">3</button>
+                    <button class="btn px-4 btn-outline-danger">4</button>
+                    <button class="btn px-4 btn-outline-info">5</button>
+                 </div>
+
+                 <div class=" my-2 mx-2 py-2 bg-light btn-group">
+                    <button class="btn px-4 btn-outline-primary">1</button>
+                    <button class="btn px-4 btn-outline-secondary">2</button>
+                    <button class="btn px-4 btn-outline-success">3</button>
+                    <button class="btn px-4 btn-outline-danger">4</button>
+                    <button class="btn px-4 btn-outline-info">5</button>
+                 </div>
+             </div>
+            
+            
+             <!-- ----------------------------------------------------- -->
+
+             <!-- ----------------------------------------------------- -->
+             
+
+             <div class="background w-100 bg-light px-2 py-2 my-2">
+                 <button class="btn btn-primary">btn btn.primary</button>
+                 <button class="btn btn-secondary">btn btn.secondary</button>
+                 <button class="btn btn-success">btn btn.success</button>
+                 <button class="btn btn-danger">btn btn.danger</button>
+                 <button class="btn btn-warning">btn btn.warning</button>
+                 <button class="btn btn-info">btn btn.info</button>
+                 <button class="btn btn-light">btn btn.light</button>
+                 <button class="btn btn-dark">btn btn.dark</button>
+                 <button class="btn btn-link">btn btn.link</button>
+            </div>
+
+             <div class="background w-100 bg-light px-2 py-2 my-2">
+                 <button class="btn btn-outline-primary">btn btn.primary</button>
+                 <button class="btn btn-outline-secondary ">btn btn.secondary</button>
+                 <button class="btn btn-outline-success">btn btn.success</button>
+                 <button class="btn btn-outline-danger">btn btn.danger</button>
+                 <button class="btn btn-outline-warning active">btn btn.warning</button>
+                 <button class="btn btn-outline-info">btn btn.info</button>
+                 <button class="btn btn-outline-light">btn btn.light</button>
+                 <button class="btn btn-outline-dark">btn btn.dark</button>
+                 <button class="btn btn-outline-link">btn btn.link</button>
+            </div>
+
+             <!-- ----------------------------------------------------- -->
+             <div class="my-2 py-2 bg-light btn-group">
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">Dropdown Menu </button>
+                <div class="dropdown-menu">
+                   <ul class="list-inline">
+                       <li><a href="">Home</a></li>
+                       <li><a href="">Gallary</a></li>
+                       <li><a href="">Contact</a></li>
+                       <li><a href="">Account</a></li>
+                       <li><a href="">About</a></li>
+
+                    </ul>
+                </div>
+             </div>
+             <!-- ----------------------------------------------------- -->
+             <div class="w-100 my-2 py-2 bg-light btn-group">
+                <button class="btn btn-primary">btn btn.primary</button>
+                <button class="btn btn-secondary ">btn btn.secondary</button>
+                <button class="btn btn-success">btn btn.success</button>
+                <button class="btn btn-danger">btn btn.danger</button>
+             </div>
+            
+             <!-- ----------------------------------------------------- -->
+             <!-- ----------------------------------------------------- -->
+             <!-- ----------------------------------------------------- -->
+             <div class="my-2 py-2 bg-light btn-group-vertical">
+                <button class="btn btn-primary">btn btn.primary</button>
+                <button class="btn btn-secondary ">btn btn.secondary</button>
+                <button class="btn btn-success">btn btn.success</button>
+                <button class="btn btn-danger">btn btn.danger</button>
+             </div>
+            
+             <!-- ----------------------------------------------------- -->
+             <!-- ----------------------------------------------------- -->
+             <div class="w-100 my-2 py-2 bg-light btn-group">
+                <button class="btn btn-outline-primary">btn btn.primary</button>
+                <button class="btn btn-outline-secondary ">btn btn.secondary</button>
+                <button class="btn btn-outline-success">btn btn.success</button>
+                <button class="btn btn-outline-danger">btn btn.danger</button>
+             </div>
+            
+             <!-- ----------------------------------------------------- -->
+             <div class=" my-2 py-2 bg-light btn-group-vertical">
+                <button class="btn btn-outline-primary">btn btn.primary</button>
+                <button class="btn btn-outline-secondary ">btn btn.secondary</button>
+                <button class="btn btn-outline-success">btn btn.success</button>
+                <button class="btn btn-outline-danger">btn btn.danger</button>
+             </div>
+            
+             <!-- ----------------------------------------------------- -->
+             
+             
+            
+             
+
+            
+<!-- ------------------------------------------------------------------------------------- -->
+       </div>
+       <!-- -------------------------------------------- -->
+
+   </div>
+  
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

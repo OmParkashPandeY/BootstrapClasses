@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-class/css/bootstrap.css">
+    <style>
+    .tablebox{
+        border:1px solid gray;
+        padding:20px;
+    }
+    .tablecolumn1{
+        border:1px solid gray;
+       
+    }
+    .red{
+        color:white;
+        background-color: red;
+    }
+    .green{
+        background-color: green;
+        color:white;
+    }
+    .pink{
+        background-color: pink;
+        color:blue;
+    }
+    .blue{
+        background-color: blue;
+        color:white;
+    }
+    .purple{
+        background-color: purple;
+        color:white;
+    }
+    .cyan{
+        background-color:cyan;
+        color:blue;
+    }
+    .yellow{
+        background-color:yellow;
+        color:blue;
+    }
+    .orange{
+        background-color:orange;
+        color:blue;
+    }
+    .orangered{
+        background-color:orangered;
+        color:blue;
+    }
+
+    </style>
+</head>
+<body>
+   
+    <!-- What is nesting ? -->
+    <!-- ans :- Nesting means multiple column inside one column. -->
+
+<div id="id">
+    <div class="container tablebox">
+        <div class="row rowbox">
+           
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 order-lg-5  tablecolumn1"><button class="button1 red">Click 1</button></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 order-lg-6 tablecolumn1"><button class="button1 green">Click 2</button></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 order-lg-4 tablecolumn1"><button class="button1 cyan">Click 3</button></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 order-lg-3 tablecolumn1"><button class="button1 pink">Click 4</button></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 order-lg-1 tablecolumn1"><button class="button1 purple">Click 5</button></div>
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 order-lg-2 tablecolumn1"><button class="button1 blue">Click 6</button></div>
+        
+        </div>
+    </div>
+</div>
+<div id="id">
+    <div class="container tablebox">
+        <div class="row rowbox">
+           
+            <div class="col-md-10 tablecolumn1">
+             <h3>Vertical Alignment</h3>
+
+
+           <div class="row align-items-start">
+               <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+               <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Aliquid, eos a? Unde?</div>
+
+               <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+           </div>
+
+           <div class="row align-items-end">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+
+        <div class="row align-items-center">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+        <div class="row align-items-stretch">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+        <div class="row align-items-baseline">
+            <div class="col-md-3 pink tablecolumn1"><p style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem, vitae inventore libero blanditiis nihil dolores perferendis recusandae asperiores sed.</p></div>
+
+            <div class="col-md-3 blue tablecolumn1"><p style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur facere deserunt amet quod doloribus fuga.</p></div>
+
+            <div class="col-md-3 cyan tablecolumn1"><p style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi ullam hic est a quam laborum sed quos totam ipsum vero, voluptates, quisquam eos incidunt aliquid dolores expedita nostrum quae.</p></div>
+        </div>
+
+
+        <!-- 
+            Now it is work from break point
+         -->
+        <div class="row align-items-lg-end">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+
+        <div class="row align-items-md-center">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+        <div class="row align-items-lg-end">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+        <div class="row align-items-md-baseline">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+        <div class="row align-items-sm-center">
+            <div class="col-md-3 pink tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio dignissimos libero animi adipisci magni. dolor sit amet consectetur adipisicing elit. Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 blue tablecolumn1"><h5>column 1</h5>Lorem ipsum, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia . Aliquid, eos a? Unde?</div>
+
+            <div class="col-md-3 cyan tablecolumn1"><h5>column 1</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, eos a?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, in! Totam velit vero quod.</div>
+        </div>
+
+        
+
+
+                
+             </div>
+        </div>
+    </div>
+</div>
+<div id="id">
+    <div class="container tablebox">
+        <div class="row rowbox">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 order-xl-1 order-lg-2  tablecolumn1">
+              <ul>
+                  <li>Home</li>
+                  <li>Gallary</li>
+                  <li>Product</li>
+                  <li>Contact-Us</li>
+                  <li>About-Me</li>
+              </ul>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 order-xl-2 order-lg-1  tablecolumn1">
+                 <div id="id">
+                     <div class="container tablebox">
+                        <div class="row rowbox">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 order-xl-2 order-lg-1     tablecolumn1">
+                                <h1>Web-Management</h1>
+                            </div> 
+                        </div> 
+                        <div class="row rowbox"> 
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 order-xl-2 order-lg-1  tablecolumn1">
+                                <h3>Web-Programming</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores similique blanditiis doloremque tempore. Nemo incidunt porro assumenda ipsa blanditiis mollitia iusto ea quia adipisci officia provident fugit in fuga eum delectus officiis, expedita iure culpa vero facere, dignissimos quos esse maxime? Soluta mollitia ratione iste ea, aperiam corrupti sint repellat dolorem quisquam voluptatibus sit nostrum eum non maiores accusantium, possimus error suscipit, aut impedit fugit, facere odio veritatis rerum. Quaerat temporibus voluptate tempore, corporis consequatur tenetur quod iusto, deserunt nulla, ab rerum veniam dicta voluptatem!</p>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 order-xl-2 order-lg-1  tablecolumn1">
+                                <h3>Backend Programming</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores similique blanditiis doloremque tempore. Nemo incidunt porro assumenda ipsa blanditiis mollitia iusto ea quia adipisci officia provident fugit in fuga eum delectus officiis, expedita iure culpa vero facere, dignissimos quos esse maxime? Soluta mollitia ratione iste ea, aperiam corrupti sint repellat dolorem quisquam voluptatibus sit nostrum eum non maiores accusantium, possimus error suscipit, aut impedit fugit, facere odio veritatis rerum. Quaerat temporibus voluptate tempore, corporis consequatur tenetur quod iusto, deserunt nulla, ab rerum veniam dicta voluptatem!</p>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 order-xl-2 order-lg-1  tablecolumn1">
+                                <h3>Web-design</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores similique blanditiis doloremque tempore. Nemo incidunt porro assumenda ipsa blanditiis mollitia iusto ea quia adipisci officia provident fugit in fuga eum delectus officiis, expedita iure culpa vero facere, dignissimos quos esse maxime? Soluta mollitia ratione iste ea, aperiam corrupti sint repellat dolorem quisquam voluptatibus sit nostrum eum non maiores accusantium, possimus error suscipit, aut impedit fugit, facere odio veritatis rerum. Quaerat temporibus voluptate tempore, corporis consequatur tenetur quod iusto, deserunt nulla, ab rerum veniam dicta voluptatem!</p>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 order-xl-2 order-lg-1  tablecolumn1">
+                                <h3>Java Learning</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores similique blanditiis doloremque tempore. Nemo incidunt porro assumenda ipsa blanditiis mollitia iusto ea quia adipisci officia provident fugit in fuga eum delectus officiis, expedita iure culpa vero facere, dignissimos quos esse maxime? Soluta mollitia ratione iste ea, aperiam corrupti sint repellat dolorem quisquam voluptatibus sit nostrum eum non maiores accusantium, possimus error suscipit, aut impedit fugit, facere odio veritatis rerum. Quaerat temporibus voluptate tempore, corporis consequatur tenetur quod iusto, deserunt nulla, ab rerum veniam dicta voluptatem!</p>
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 order-xl-2 order-lg-1  tablecolumn1">
+                                <h3>Bootstrap Know</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores similique blanditiis doloremque tempore. Nemo incidunt porro assumenda ipsa blanditiis mollitia iusto ea quia adipisci officia provident fugit in fuga eum delectus officiis, expedita iure culpa vero facere, dignissimos quos esse maxime? Soluta mollitia ratione iste ea, aperiam corrupti sint repellat dolorem quisquam voluptatibus sit nostrum eum non maiores accusantium, possimus error suscipit, aut impedit fugit, facere odio veritatis rerum. Quaerat temporibus voluptate tempore, corporis consequatur tenetur quod iusto, deserunt nulla, ab rerum veniam dicta voluptatem!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>
